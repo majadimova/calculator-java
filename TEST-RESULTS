@@ -1,0 +1,8 @@
+Testiranje:
+Test sabiranja-uspesno.
+Test oduzimanja-uspeno.
+Test deljenja -uspesno.
+Test mnozenja-uspesno.
+Za osnovne operacije rezulat je uspesan test.
+U slozenim operacijama dobijaju se ocekivani rezultati i postuje se red racunskih operacija  
+Jedino kod upotrebe zagrade pojavljuje se Error 
