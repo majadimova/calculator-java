@@ -1,0 +1,16 @@
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+public class CalculatorTest {
+    @Test
+    void testRun() {
+        assertEquals("5.0", Calculator.Run("2+3"));
+        assertEquals("6.0",Calculator.Run("2*3"));
+        assertEquals("2.0", Calculator.Run("6/3"));
+        assertEquals("1.0", Calculator.Run("3-2"));
+        assertEquals("7.0", Calculator.Run("2+3*2-1"));
+        assertEquals("2.5", Calculator.Run("5/2"));
+        assertEquals("Infinity", Calculator.Run("1/0"));
+        assertEquals("-Infinity",Calculator.Run("-1/0"));
+        assertEquals("ERROR", Calculator.Run("2+a"));
+    }
+}
